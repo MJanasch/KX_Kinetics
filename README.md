@@ -32,9 +32,9 @@ Find initial concentrations for Hit-and-Run Sampling of feasible metabolite conc
 'Metabolite_Sampling/Metabolite_Variability_Analysis/KX_MDF_MetaboliteVariabilityAnalysis.m' - Main file to perform MDF analysis and subsequent metabolite concentration variability analysis to find many metabolite concentration sets to start HnR-Sampling from.
 
 Support scripts:
-'Metabolite_Sampling/Metabolite_Variability_Analysis/KX_FindIndex.m' - Helpful script to find indeces of variables in a list
-'Metabolite_Sampling/Metabolite_Variability_Analysis/KX_MDF_SolveLP.m' - Script to solve the linear programming problem for MDF and max/min metabolite concentrations
-'Metabolite_Sampling/Metabolite_Variability_Analysis/KX_MDF_VA.m' - Script to perform actual variability analysis
+- 'Metabolite_Sampling/Metabolite_Variability_Analysis/KX_FindIndex.m' - Helpful script to find indeces of variables in a list
+- 'Metabolite_Sampling/Metabolite_Variability_Analysis/KX_MDF_SolveLP.m' - Script to solve the linear programming problem for MDF and max/min metabolite concentrations
+- 'Metabolite_Sampling/Metabolite_Variability_Analysis/KX_MDF_VA.m' - Script to perform actual variability analysis
 
 ##### Input data:
 'Metabolite_Sampling/Metabolite_Variability_Analysis/concentration_ranges_MDF.txt' - Metabolite concentration ranges, adapted from Asplund-Samuelsson et al. 2018 [link](https://www.sciencedirect.com/science/article/pii/S1096717617301076)
@@ -61,11 +61,9 @@ Initial metabolite concentrations sets: a set of concentrations for all metaboli
 
 
 Support scripts:
-'Metabolite_Sampling/HnR_Sampling/read_concentration_ranges.py' - Reads in concentration ranges
-
-'Metabolite_Sampling/HnR_Sampling/read_equilibrator_dg.py' - Reads in equilibrator results
-
-'Metabolite_Sampling/HnR_Sampling/SMatrix_from_reactions.py' - Creates S-matrix from reactions
+- 'Metabolite_Sampling/HnR_Sampling/read_concentration_ranges.py' - Reads in concentration ranges
+- 'Metabolite_Sampling/HnR_Sampling/read_equilibrator_dg.py' - Reads in equilibrator results
+- 'Metabolite_Sampling/HnR_Sampling/SMatrix_from_reactions.py' - Creates S-matrix from reactions
 
 
 ##### Input data:
